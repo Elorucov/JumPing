@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Authors>ELOR</Authors>
+    <Company>ELOR</Company>
+    <Description>Just jumping Ping.</Description>
+    <Copyright>© 2021 ELOR (Elchin Orujov)</Copyright>
+    <PackageProjectUrl>https://elor.top</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Elorucov/JumPing</RepositoryUrl>
+    <ApplicationIcon>ping.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ping.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ping.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

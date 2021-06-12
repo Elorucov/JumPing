@@ -1,0 +1,9 @@
+﻿<Application x:Class="JumPing.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:JumPing"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <BitmapImage x:Key="Ping" UriSource="/ping.png"/>
+    </Application.Resources>
+</Application>
